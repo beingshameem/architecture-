@@ -113,13 +113,93 @@ nav li{
 
 .advertisement{
     display: flex;
-    padding: 130px 240px;
-    border: solid 2px red;
-    background-color: beige;
+    padding: 130px 240px 0 130px;
+    gap: 60px;
 }
 
 .adv-title{
-    
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    padding: 24px 0 30px 0;
+}
+
+.adv-description{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.card{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    padding-bottom: 0;
+}
+
+.adv-card{
+    padding: 30px 42px 30px 30px;
+}
+
+.card-title{
+    color: #131313;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.card-description{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 
+/* About Section Styles */
+
+.about{
+    padding: 130px 240px;
+}
+
+.abt-title{
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.abt-description{
+    color: #727272;
+    margin-top: 24px;
+}
+
+.abt-card{
+    display: flex;
+    margin: 100px 50px 0px 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.abt-card-format{
+    padding: 45px 35px 60px 35px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.abt-card-format:hover{
+    border: 2px solid blue;
+}
+
+.abt-card-number{
+    color: #424242;
+    font-size: 45px;
+    font-weight: 600;
+    padding: 10px 0 5px 0;
+}
+
+.abt-card-status{
+    color: #727272;
+    font-weight: 600;
+    font-size: 20px;
+}
