@@ -75,3 +75,47 @@ nav li{
 .banner-image{
     padding: 50px 230px;
 }
+
+/* Feature Section Styles */
+
+.features-section{
+    display: flex;
+    padding: 85px 300px 0px 300px;
+    gap: 70px;
+}
+
+.features-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    gap: 24px;
+}
+
+.features{
+    padding: 200px 0px;
+}
+
+.feature-title{
+    color: #727272;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.feature-description{
+    color: #727272;
+    padding: 30px 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+/* Feature Extention Section */
+
+.advertisement{
+    display: flex;
+    padding: 130px 240px;
+    border: solid 2px red;
+    background-color: beige;
+}
+
+
