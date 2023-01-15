@@ -19,6 +19,10 @@ header{
     border: 0px;
 }
 
+.btn-primary:hover{
+    border: 2px blue solid;
+}
+
 /* Nav bar Design  */
 
 nav{
@@ -32,13 +36,20 @@ nav{
     color: #131313;
     font-size: 45px;
     font-weight: 700;
+}
 
+.nav-title:hover{
+    text-decoration: underline blue 3px;
 }
 
 nav ul{
     width: 480px;
     display: flex;
     justify-content: space-around;
+}
+
+nav ul:hover{
+    text-decoration: underline blue 2px;
 }
 
 nav li{
@@ -61,20 +72,32 @@ nav li{
     padding-bottom: 30px;
 }
 
-.banner-subtitle{
-    color: #727272;
-    font-weight: 400;
-    font-size: 16px;
+.banner-title:hover{
+    text-decoration: underline blue 5px;
 }
 
+
+.banner-subtitle{
+    color: #727272;
+}
+
+.banner-subtitle:hover{
+    text-decoration: underline blue 2px;
+}
 .btn-container{
     text-align: center;
     padding-top: 20px;
 }
 
 .banner-image{
-    padding: 50px 230px;
+    margin: 50px 230px;
 }
+
+.banner-image:hover{
+    border: blue 1px solid;
+}
+
+
 
 /* Feature Section Styles */
 
@@ -91,8 +114,17 @@ nav li{
     gap: 24px;
 }
 
+.img-feat:hover{
+    border: blue 2px solid;
+    border-radius: 8px;
+}
+
 .features{
-    padding: 200px 0px;
+    margin: 200px 0px;
+}
+
+.features:hover{
+    border: solid 3px blue;
 }
 
 .feature-title{
@@ -113,15 +145,23 @@ nav li{
 
 .advertisement{
     display: flex;
-    padding: 130px 240px 0 130px;
+    margin: 130px 240px 0 130px;
     gap: 60px;
 }
+
+.advertisement:hover{
+    border: violet 3px solid;
+}
+
+
 
 .adv-title{
     color: #131313;
     font-size: 45px;
     font-weight: 700;
     padding: 24px 0 30px 0;
+    border-left: 6px solid #FF900E;;
+    height: 100px;
 }
 
 .adv-description{
@@ -149,6 +189,7 @@ nav li{
     padding-bottom: 10px;
 }
 
+
 .card-description{
     color: #727272;
     font-size: 16px;
@@ -168,9 +209,17 @@ nav li{
     font-weight: 700;
 }
 
+.abt-title:hover{
+    text-decoration: underline blue 3px;
+}
+
 .abt-description{
     color: #727272;
     margin-top: 24px;
+}
+
+.abt-description:hover{
+    text-decoration: underline blue 2px;
 }
 
 .abt-card{
@@ -191,6 +240,10 @@ nav li{
     border: 2px solid blue;
 }
 
+.card-img:hover{
+    border: 2px blueviolet solid;
+}
+
 .abt-card-number{
     color: #424242;
     font-size: 45px;
@@ -203,3 +256,57 @@ nav li{
     font-weight: 600;
     font-size: 20px;
 }
+
+.card-info:hover{
+    border: solid blue 2px;
+}
+
+/* Sponsor Section Styles */
+
+.sponsors{
+    padding: 50px 240px;
+}
+
+.sponsor-header{
+    text-align: center;
+    margin-bottom: 50px;
+    margin: 0 400px 50px 420px;
+}
+
+.sponsor-header:hover{
+    border: solid blue 2px;
+}
+
+.sponsor-section-title{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.companies{
+    display: flex;
+    justify-content: space-between;
+    filter: grayscale(1)
+}
+
+.cmp-img:hover{
+    border: blue solid 3px;
+}
+
+
+/* Footer Section Styles */
+
+footer{
+    margin: 120px 240px 250px 240px;
+    background: #FFF4E7;
+    border-radius: 8px;
+}
+
+footer:hover{
+    border: skyblue 3px solid;
+}
+
+.footer-title{
+    padding: 40px 410px;
+}
+
