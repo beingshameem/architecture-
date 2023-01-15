@@ -347,3 +347,14 @@ footer:hover{
     padding: 40px 410px;
 }
 
+
+@media screen and (max-width:576px) {
+    nav, .features-section, .advertisement, .abt-card, .contact, .companies{
+        flex-direction: column;
+    }
+
+    .card{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+}
